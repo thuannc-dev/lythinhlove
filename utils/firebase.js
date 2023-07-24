@@ -2,13 +2,14 @@ import { getDatabase } from "firebase/database";
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDPN6roBCI1DW-ziPZakJLyV7Z1ZW30LFk",
-  authDomain: "hienoanh-wedding.firebaseapp.com",
-  projectId: "hienoanh-wedding",
-  storageBucket: "hienoanh-wedding.appspot.com",
-  messagingSenderId: "947695586214",
-  appId: "1:947695586214:web:0479d17f7962ee987add67",
-  measurementId: "G-MLPWX1W5GD",
+  apiKey: "AIzaSyDyeG789elIotE9FbDdfhFnxevpJV6pU8Q",
+  authDomain: "lythinh-wedding.firebaseapp.com",
+  databaseURL:
+    "https://lythinh-wedding-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "lythinh-wedding",
+  storageBucket: "lythinh-wedding.appspot.com",
+  messagingSenderId: "973231423097",
+  appId: "1:973231423097:web:7d8dd9320ee0a6ba2f1ea8",
 };
 
 const app = initializeApp(firebaseConfig);

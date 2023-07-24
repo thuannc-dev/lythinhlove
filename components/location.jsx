@@ -25,12 +25,12 @@ const Location = () => {
         justify="center"
       >
         <Image
-          // data-aos="zoom-in-up"
+          data-aos="zoom-in-up"
           alt="Chung vui với chúng mình"
           src={inviting.src}
-          width={"30%"}
+          maxWidth={700}
         />
-        <Center height="60px" data-aos="fade-up">
+        <Center height="60px" data-aos="zoom-in-up">
           <Divider
             orientation="vertical"
             size="md"
@@ -59,7 +59,7 @@ const Location = () => {
           </Text>
 
           <Text
-            // data-aos="fade-up"
+            data-aos="fade-up"
             data-aos-delay="500"
             color="main"
             align="center"
@@ -71,7 +71,7 @@ const Location = () => {
             <Text as="span">08</Text>
           </Text>
           <Text
-            // data-aos="fade-up"
+            data-aos="fade-up"
             data-aos-delay="500"
             fontSize={120}
             color="main"

@@ -47,7 +47,7 @@ const GromAndBride = () => {
         </VStack>
 
         <Box
-          // data-aos="zoom-in-up"
+          data-aos="zoom-in-up"
           // data-aos-duration="1000"
           // data-aos-delay="300"
           display="flex"
@@ -59,7 +59,12 @@ const GromAndBride = () => {
           backgroundRepeat="no-repeat"
           backgroundPosition="center"
         >
-          <Image w="60%" alt="anhhaidua" borderRadius={4} src={anhhaidua.src} />
+          <Image
+            w={{ xs: "70%", sm: "60%" }}
+            alt="anhhaidua"
+            borderRadius={{ xs: 2, sm: 4 }}
+            src={anhhaidua.src}
+          />
         </Box>
 
         <VStack

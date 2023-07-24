@@ -11,6 +11,7 @@ import { ref, set } from "firebase/database";
 
 import { db } from "../utils/firebase";
 import loichuc from "../public/guigam.svg";
+import gui from "../public/gui.svg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -88,7 +89,7 @@ const Wishes = () => {
               focusBorderColor="#D3D3D3"
               placeholder="Cho chúng mình biết bạn là ai nhé!"
             />
-            <HStack w="100%" justify="flex-end" pos="relative">
+            <HStack mt={2} w="100%" justify="flex-end" pos="relative">
               <Button
                 color="main"
                 _hover={{ bg: "#f9f0ec" }}
@@ -96,7 +97,7 @@ const Wishes = () => {
                 loadingText="Đang gửi..."
                 onClick={onSend}
               >
-                Gửi lời chúc
+                <Image alt="Send" src={gui.src} height={12} />
               </Button>
             </HStack>
           </VStack>

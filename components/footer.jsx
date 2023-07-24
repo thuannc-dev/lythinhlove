@@ -48,7 +48,7 @@ const Footer = () => {
         alt="footertypo"
         src={footertypo.src}
         transform="translate(-10%)"
-        width="20%"
+        maxWidth={500}
       />
     </Box>
   );

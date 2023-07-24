@@ -1,6 +1,6 @@
 import "../styles/main.css";
 import "../components/grid-gallery/styles.scss";
-// import "aos/dist/aos.css";
+import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 

@@ -57,7 +57,7 @@ export default function IntroSection() {
         </Box> */}
         <Box order={{ xs: 1, sm: 1 }}>
           <FadeMotion delay={0.5}>
-            <Text fontSize="4xl" color="main">
+            <Text fontSize={{ xs: "3xl", sm: "4xl" }} color="main">
               NGỌC THỊNH{" "}
               <Text color="mainRed" as="span">
                 &
