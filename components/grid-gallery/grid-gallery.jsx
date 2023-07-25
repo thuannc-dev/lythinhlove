@@ -42,7 +42,7 @@ const GridGallery = () => {
           data-aos-duration="1000"
           alt="anhchungminh"
           src={anhchungminh.src}
-          width={320}
+          width={360}
         />
       </Center>
       <div className="container">

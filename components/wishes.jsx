@@ -48,7 +48,7 @@ const Wishes = () => {
           data-aos="zoom-in-up"
           alt="loichuc"
           src={loichuc.src}
-          width={360}
+          width={400}
           mb={6}
         />
         {sended ? (
